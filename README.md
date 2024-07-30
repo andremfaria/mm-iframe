@@ -2,11 +2,10 @@
 
 ```bash
 pnpm install 
-pnpm dev
+pnpm dev --host
 ```
-1. Access [http://<your_local_ip>:5173/](http://<your_local_ip>:5173/) from your Chrome@android with MetaMask not installed 
+1. Access [http://<your_local_ip>:5173/iframe/index.html](http://<your_local_ip>:5173/html) from your Safari@iOS.
 2. Click the "Connect" button.
 3. Nothing happens 
 
 ```
-If you change useDeeplink to false, it works as expected. 
